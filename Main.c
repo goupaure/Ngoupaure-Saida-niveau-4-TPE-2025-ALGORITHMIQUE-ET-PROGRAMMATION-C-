@@ -8,7 +8,7 @@ int main(void) {
     scanf("%lf %lf %lf", &a, &b, &c);
     resoudreEquation(a, b, c);
 
-    /* ===== Exercice 12a : Test de primalité (Algorithmique) ===== */
+     ===== Exercice 12a : Test les nombre premier ===== 
     long long n;
     printf("\n[Exercice 12a] Entrez un entier positif: ");
     scanf("%lld", &n);
@@ -60,3 +60,4 @@ int main(void) {
 
     return 0;
 }
+
