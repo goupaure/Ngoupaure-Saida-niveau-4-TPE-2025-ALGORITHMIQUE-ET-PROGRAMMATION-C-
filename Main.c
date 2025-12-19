@@ -2,7 +2,7 @@
 #include "Bibliotheque.c"
 
 int main(void) {
-    /* ===== Exercice 7 : Equation du second degré ===== */
+    ===== Exercice 7 : Equation du second degré =====
     double a, b, c;
     printf("\n[Exercice 7] Entrez a, b, c: ");
     scanf("%lf %lf %lf", &a, &b, &c);
@@ -17,7 +17,7 @@ int main(void) {
     else
         printf("%lld n'est pas premier.\n", n);
 
-    /* ===== Exercice 13 : Distance entre deux points ===== */
+    ===== Exercice 13 : Distance entre deux points =====
     Point p1, p2;
     printf("\n[Exercice 13] Entrez x1 y1: ");
     scanf("%lf %lf", &p1.x, &p1.y);
@@ -25,7 +25,7 @@ int main(void) {
     scanf("%lf %lf", &p2.x, &p2.y);
     printf("Distance = %.6f\n", distance(p1, p2));
 
-    /* ===== Exercice 8 (Programmation en C) : Vérifier si un entier est premier ===== */
+    ===== Exercice 8 (Programmation en C) : Vérifier si un entier est premier =====
     int m;
     printf("\n[Exercice 8] Entrez un entier: ");
     scanf("%d", &m);
@@ -34,7 +34,7 @@ int main(void) {
     else
         printf("%d n'est pas premier.\n", m);
 
-    /* ===== Fonction Factoriel ===== */
+    ===== Fonction Factoriel =====
     int f;
     printf("\n[Factoriel] Entrez un entier: ");
     scanf("%d", &f);
@@ -44,13 +44,13 @@ int main(void) {
     else
         printf("%d! = %lld\n", f, fact);
 
-    /* ===== Fonction Puissance ===== */
+    ===== Fonction Puissance =====
     int base, exp;
     printf("\n[Puissance] Entrez a et b (calcul de a^b): ");
     scanf("%d %d", &base, &exp);
     printf("%d^%d = %lld\n", base, exp, puissance(base, exp));
 
-    /* ===== Fonction Permutation ===== */
+    ===== Fonction Permutation =====
     int x, y;
     printf("\n[Permutation] Entrez deux entiers a et b: ");
     scanf("%d %d", &x, &y);
@@ -60,4 +60,5 @@ int main(void) {
 
     return 0;
 }
+
 
