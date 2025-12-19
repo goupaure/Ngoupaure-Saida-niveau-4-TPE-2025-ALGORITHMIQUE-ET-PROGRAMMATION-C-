@@ -2,7 +2,7 @@
 #include <math.h>
 #include "bibliotheque.h"
 
-/* ===== Exercice 7 : Equation du second degré ===== */
+===== Exercice 7 : Equation du second degré =====
 void resoudreEquation(double a, double b, double c) {
     if (a == 0.0) {
         if (b == 0.0) {
@@ -28,7 +28,7 @@ void resoudreEquation(double a, double b, double c) {
     }
 }
 
-/* ===== Exercice 12a : Test pour les nombres prmiers (Algorithmique) ===== */
+===== Exercice 12a : Test pour les nombres prmiers (Algorithmique) =====
 int estPremier(long long n) {
     if (n < 2) return 0;
     if (n == 2 || n == 3) return 1;
@@ -42,14 +42,14 @@ int estPremier(long long n) {
     return 1;
 }
 
-/* ===== Exercice 13 : Distance entre deux points ===== */
+===== Exercice 13 : Distance entre deux points =====
 double distance(Point p1, Point p2) {
     double dx = p2.x - p1.x;
     double dy = p2.y - p1.y;
     return sqrt(dx*dx + dy*dy);
 }
 
-/* ===== Exercice 8 (Programmation en C) : Vérifier si un entier est premier ===== */
+===== Exercice 8 (Programmation en C) : Vérifier si un entier est premier =====
 int estPremierC(int n) {
     if (n < 2) return 0;
     int i;
@@ -70,7 +70,7 @@ long long factoriel(int n) {
     return resultat;
 }
 
-/* ===== Fonction Puissance ===== */
+===== Fonction Puissance =====
 long long puissance(int a, int b) {
     long long resultat = 1;
     int i;
@@ -80,11 +80,12 @@ long long puissance(int a, int b) {
     return resultat;
 }
 
-/* ===== Fonction Permutation ===== */
+===== Fonction Permutation =====
 void permut(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
+
 
 
